@@ -17,7 +17,7 @@
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Settings for VMServer</string>
+	<string>Dock - CSH</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -60,7 +60,7 @@
 			<key>autohide</key>
 			<false/>
 			<key>show-process-indicators</key>
-			<false/>
+			<true/>
 			<key>show-process-indicators-immutable</key>
 			<true/>
 			<key>minimize-to-application</key>
@@ -99,37 +99,140 @@
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Safari</string>
+						<string>Keynote</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Safari.app</string>
+							<string>/Applications/Keynote.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
 					</dict>
 				</dict>
-			</array>
-			<key>static-others</key>
-			<array>
 				<dict>
 					<key>mcx_typehint</key>
-					<integer>2</integer>
+					<integer>1</integer>
 					<key>tile-type</key>
-					<string>directory-tile</string>
+					<string>file-tile</string>
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Downloads</string>
+						<string>Pages</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>~/Downloads/</string>
+							<string>/Applications/Pages.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
-						<key>file-type</key>
-						<integer>2</integer>
+					</dict>
+				</dict>			
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Microsoft Word</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Microsoft Office 2008/Microsoft Word.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>			
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>iMovie</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/iMovie.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>			
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Adobe Photoshop CS6</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>			
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Adobe InDesign CS6</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Adobe InDesign CS6/Adobe InDesign CS6.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Eclipse</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/eclipse/Eclipse.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Terminal</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Utilities/Terminal.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
 					</dict>
 				</dict>
 			</array>
