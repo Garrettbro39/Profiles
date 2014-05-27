@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>org.sacredsf.profile.softwareupdate</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9F9C64E5-E7C9-48EB-B1A9-80570309E264</string>
+	<key>PayloadOrganization</key>
+	<string>SSH SF</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>Software Update Settings</string>
+	<key>PayloadDescription</key>
+	<string>Software Update settings</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>org.sacredsf.profile.softwareupdate</string>
+			<key>PayloadUUID</key>
+			<string>B8D383A0-2E04-47F6-8E52-748340D99EDB</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>Software Update</string>
+			<key>CatalogURL</key>
+			<string>http://repo.sacredsf.org/content/catalogs/others/index-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
+		</dict>
+	</array>
+</dict>
+</plist>
