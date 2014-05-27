@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profile.numbers</string>
+	<string>org.sacredsf.profile.munki</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>E7D4A446-36C9-480C-AF60-DA71093731AC</string>
+	<string>D7AE75ED-1230-44EC-AF66-9CCB7C727D02</string>
 	<key>PayloadOrganization</key>
-	<string>SSH SF</string>
+	<string>SSH</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Numbers</string>
+	<string>Munki Config</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,24 +26,26 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.sacredsf.profile.numbers</string>
+			<string>org.sacredsf.profile.munki</string>
 			<key>PayloadUUID</key>
-			<string>71a9ecf0-1f11-0131-c336-000c2944c108</string>
+			<string>773D3752-4305-4D9C-B641-099C19E69366</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Custom: (com.apple.iWork.Numbers)</string>
+			<string>Custom: (ManagedInstalls)</string>
 			<key>PayloadContent</key>
 			<dict>
-				<key>com.apple.iWork.Numbers</key>
+				<key>ManagedInstalls</key>
 				<dict>
-					<key>Set-Once</key>
+					<key>Forced</key>
 					<array>
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>TMAFirstLaunchVersion</key>
-								<integer>65538</integer>
+								<key>SoftwareRepoURL</key>
+								<string>http://repo.sacredsf.org/munki</string>
+								<key>SoftwareUpdateServerURL</key>
+								<string>http://repo.sacredsf.org/content/catalogs/others/index-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
 							</dict>
 						</dict>
 					</array>

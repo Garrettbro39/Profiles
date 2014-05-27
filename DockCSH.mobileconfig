@@ -126,25 +126,7 @@
 							<integer>0</integer>
 						</dict>
 					</dict>
-				</dict>			
-				<dict>
-					<key>mcx_typehint</key>
-					<integer>1</integer>
-					<key>tile-type</key>
-					<string>file-tile</string>
-					<key>tile-data</key>
-					<dict>
-						<key>file-label</key>
-						<string>Microsoft Word</string>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Applications/Microsoft Office 2008/Microsoft Word.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-				</dict>			
+				</dict>
 				<dict>
 					<key>mcx_typehint</key>
 					<integer>1</integer>
@@ -162,7 +144,7 @@
 							<integer>0</integer>
 						</dict>
 					</dict>
-				</dict>			
+				</dict>
 				<dict>
 					<key>mcx_typehint</key>
 					<integer>1</integer>
@@ -180,7 +162,7 @@
 							<integer>0</integer>
 						</dict>
 					</dict>
-				</dict>			
+				</dict>
 				<dict>
 					<key>mcx_typehint</key>
 					<integer>1</integer>
