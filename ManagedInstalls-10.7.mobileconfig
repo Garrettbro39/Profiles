@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profile.munki</string>
+	<string>org.sacredsf.profiles.munki</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -26,7 +26,7 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.sacredsf.profile.munki</string>
+			<string>org.sacredsf.profiles.munki</string>
 			<key>PayloadUUID</key>
 			<string>773D3752-4305-4D9C-B641-099C19E69366</string>
 			<key>PayloadEnabled</key>

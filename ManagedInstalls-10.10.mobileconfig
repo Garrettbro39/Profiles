@@ -11,7 +11,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>249893F9-DCC1-473C-9755-B66EEB76BF29</string>
+	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
 	<key>PayloadOrganization</key>
 	<string>SSH</string>
 	<key>PayloadVersion</key>
@@ -28,7 +28,7 @@
 			<key>PayloadIdentifier</key>
 			<string>org.sacredsf.profiles.munki</string>
 			<key>PayloadUUID</key>
-			<string>A53F2433-4CA8-4236-80B8-C55094626949</string>
+			<string>7059fe60-222f-0131-31db-000c2944c108</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
@@ -45,7 +45,7 @@
 								<key>SoftwareRepoURL</key>
 								<string>http://repo.sacredsf.org/munki</string>
 								<key>SoftwareUpdateServerURL</key>
-								<string>http://repo.sacredsf.org/content/catalogs/others/index-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
+								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
 							</dict>
 						</dict>
 					</array>
