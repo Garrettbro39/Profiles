@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profiles.munki</string>
+	<string>org.sacredsf.profiles.munki.suppress</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<string>1BE9DA9D-865D-4BD5-80B1-9E1BA0BA0BF2</string>
 	<key>PayloadOrganization</key>
-	<string>SSH</string>
+	<string>SSH SF</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Munki Config</string>
+	<string>Suppress User Notification</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,9 +26,9 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.sacredsf.profiles.munki</string>
+			<string>org.sacredsf.profiles.munki.suppress</string>
 			<key>PayloadUUID</key>
-			<string>7059fe60-222f-0131-31db-000c2944c108</string>
+			<string>5C385149-14CD-4519-BD45-30320B7E46A7</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
@@ -42,12 +42,8 @@
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>InstallAppleSoftwareUpdates</key>
+								<key>SuppressUserNotification</key>
 								<true/>
-								<key>SoftwareRepoURL</key>
-								<string>http://repo.sacredsf.org/munki</string>
-								<key>SoftwareUpdateServerURL</key>
-								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
 							</dict>
 						</dict>
 					</array>

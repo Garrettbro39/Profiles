@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profiles.munki</string>
+	<string>org.sacredsf.profile.filevaultsetup</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<string>908738F0-1B1F-419D-BE79-95CD3C45BF3B</string>
 	<key>PayloadOrganization</key>
-	<string>SSH</string>
+	<string>SSH SF</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Munki Config</string>
+	<string>FileVaultSetup</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,28 +26,30 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.sacredsf.profiles.munki</string>
+			<string>org.sacredsf.profile.filevaultsetup</string>
 			<key>PayloadUUID</key>
-			<string>7059fe60-222f-0131-31db-000c2944c108</string>
+			<string>8AC98BAB-B782-47F2-B9EF-B641B98701AD</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Custom: (ManagedInstalls)</string>
+			<string>Custom: (ca.sfu.its.filevaultsetup)</string>
 			<key>PayloadContent</key>
 			<dict>
-				<key>ManagedInstalls</key>
+				<key>ca.sfu.its.filevaultsetup</key>
 				<dict>
 					<key>Forced</key>
 					<array>
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>InstallAppleSoftwareUpdates</key>
-								<true/>
-								<key>SoftwareRepoURL</key>
-								<string>http://repo.sacredsf.org/munki</string>
-								<key>SoftwareUpdateServerURL</key>
-								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
+								<key>FVSDoNotAskForSetup</key>
+								<string>NO</string>
+								<key>FVSForceSetup</key>
+								<string>YES</string>
+								<key>FVSUseKeychain</key>
+								<string>YES</string>
+								<key>FVSCreateRecoveryKey</key>
+								<string>NO</string>
 							</dict>
 						</dict>
 					</array>

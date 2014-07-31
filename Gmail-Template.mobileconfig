@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadIdentifier</key>
+	<string>org.sacredsf.profiles.email</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>User</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>636ae7ca-960c-41ac-be71-5fc310056dc0</string>
+	<key>PayloadOrganization</key>
+	<string>Schools of the Sacred Heart</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+	<key>PayloadDisplayName</key>
+	<string>SSH Email</string>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.mail.managed</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.vmservertest.local.636ae7ca-960c-41ac-be71-5fc310056dc0.alacarte.email.e6073e90-cefd-0131-77dc-000c290480b9</string>
+			<key>PayloadUUID</key>
+			<string>e6073e90-cefd-0131-77dc-000c290480b9</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadDisplayName</key>
+			<string>SSH Email</string>
+			<key>EmailAccountDescription</key>
+			<string>SSH Email</string>
+			<key>disableMailRecentsSyncing</key>
+			<false/>
+			<key>PreventMove</key>
+			<false/>
+			<key>PreventAppSheet</key>
+			<false/>
+			<key>SMIMEEnabled</key>
+			<false/>
+			<key>SMIMEEnablePerMessageSwitch</key>
+			<false/>
+			<key>IncomingMailServerPortNumber</key>
+			<integer>993</integer>
+			<key>IncomingMailServerAuthentication</key>
+			<string>EmailAuthPassword</string>
+			<key>IncomingMailServerUseSSL</key>
+			<true/>
+			<key>OutgoingMailServerPortNumber</key>
+			<integer>587</integer>
+			<key>OutgoingMailServerAuthentication</key>
+			<string>EmailAuthPassword</string>
+			<key>OutgoingMailServerUseSSL</key>
+			<true/>
+			<key>EmailAccountType</key>
+			<string>EmailTypeIMAP</string>
+			<key>IncomingMailServerHostName</key>
+			<string>imap.gmail.com</string>
+			<key>OutgoingMailServerHostName</key>
+			<string>smtp.gmail.com</string>
+			<key>OutgoingPasswordSameAsIncomingPassword</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
