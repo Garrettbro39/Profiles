@@ -45,7 +45,7 @@
 								<key>DidSeeCloudSetup</key>
 								<true/>
 								<key>LastSeenCloudProductVersion</key>
-								<string>10.9</string>
+								<string>10.10</string>
 								<key>RunNonInteractive</key>
 								<true/>
 							</dict>

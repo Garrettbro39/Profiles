@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profile.dock</string>
+	<string>org.sacredsf.profile.dock.apcs</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
-	<string>System</string>
+	<string>User</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<string>18DA8743-2436-4E39-A966-14F9637CD367</string>
 	<key>PayloadOrganization</key>
 	<string>SSH</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Dock - CSH</string>
+	<string>Dock - CSH - APCS</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -30,7 +30,7 @@
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadUUID</key>
-			<string>1559f9e0-2221-0131-31d8-000c2944c108</string>
+			<string>3E900D29-BA4A-426D-8F32-CADD09D8A7C4</string>
 			<key>PayloadDisplayName</key>
 			<string>Dock</string>
 			<key>tilesize</key>
@@ -66,7 +66,7 @@
 			<key>minimize-to-application</key>
 			<false/>
 			<key>minimize-to-application-immutable</key>
-			<true/>
+			<false/>
 			<key>contents-immutable</key>
 			<true/>
 			<key>static-only</key>
@@ -230,6 +230,42 @@
 						<dict>
 							<key>_CFURLString</key>
 							<string>/Applications/TextEdit.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Xcode</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Xcode.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Eclipse</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/eclipse/Eclipse.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profile.chrome</string>
+	<string>com.domain.CHANGE.ME.TO.SOMETHING.USEFUL</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>bf900530-2306-0131-32e2-000c2944c108</string>
+	<string>9D19E832-A71E-47DA-88F0-2F918E99296D</string>
 	<key>PayloadOrganization</key>
-	<string>SSH SF</string>
+	<string>SSH</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Chrome</string>
+	<string>Munki Config</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,38 +26,26 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.mdm.VMServer.local.bf900530-2306-0131-32e2-000c2944c108.alacarte.customsettings.3377ead0-2310-0131-32ec-000c2944c108</string>
+			<string>com..domain.CHANGE.ME.TOO.BUT.IT.DOESNT.MATTER.WHAT</string>
 			<key>PayloadUUID</key>
-			<string>3377ead0-2310-0131-32ec-000c2944c108</string>
+			<string>1008A45F-670E-47C3-B28B-118C11E6AA92</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Custom: (com.google.Chrome)</string>
+			<string>Custom: (ManagedInstalls)</string>
 			<key>PayloadContent</key>
 			<dict>
-				<key>com.google.Chrome</key>
+				<key>ManagedInstalls</key>
 				<dict>
 					<key>Forced</key>
 					<array>
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>AutoFillEnabled</key>
-								<false/>
-								<key>BookmarkBarEnabled</key>
-								<false/>
-								<key>HideWebStorePromo</key>
+								<key>InstallAppleSoftwareUpdates</key>
 								<true/>
-								<key>HomepageIsNewTabPage</key>
-								<false/>
-								<key>HomepageLocation</key>
-								<string>http://www.sacredsf.org</string>
-								<key>PasswordManagerEnabled</key>
-								<false/>
-								<key>RestoreOnStartup</key>
-								<integer>0</integer>
-								<key>SyncDisabled</key>
-								<true/>
+								<key>SoftwareRepoURL</key>
+								<string>MUNKI_REPO_URL</string>
 							</dict>
 						</dict>
 					</array>
