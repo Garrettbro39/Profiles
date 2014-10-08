@@ -44,6 +44,8 @@
 							<dict>
 								<key>AutoFillEnabled</key>
 								<false/>
+								<key>DefaultBrowserSettingEnabled</key>
+								<true/>
 								<key>BookmarkBarEnabled</key>
 								<false/>
 								<key>HideWebStorePromo</key>
