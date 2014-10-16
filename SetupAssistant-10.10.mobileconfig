@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>PayloadIdentifier</key>
-	<string>org.sacredsf.profiles.munki</string>
+	<string>org.sacredsf.profile.setupassistant</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadScope</key>
@@ -11,13 +11,13 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>a3f3dc40-1fde-0131-31d5-000c2944c108</string>
+	<string>D06A8CF8-4C1C-452B-A48D-97871AF5ECEF</string>
 	<key>PayloadOrganization</key>
-	<string>SSH</string>
+	<string>SSH SF</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 	<key>PayloadDisplayName</key>
-	<string>Munki Config</string>
+	<string>Setup Assistant</string>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -26,28 +26,38 @@
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>PayloadIdentifier</key>
-			<string>org.sacredsf.profiles.munki</string>
+			<string>org.sacredsf.profile.setupassistant</string>
 			<key>PayloadUUID</key>
-			<string>7059fe60-222f-0131-31db-000c2944c108</string>
+			<string>C823FDE7-0EFB-485A-B9EB-35069450556D</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadDisplayName</key>
-			<string>Custom: (ManagedInstalls)</string>
+			<string>Custom: (com.apple.SetupAssistant)</string>
 			<key>PayloadContent</key>
 			<dict>
-				<key>ManagedInstalls</key>
+				<key>com.apple.SetupAssistant</key>
 				<dict>
-					<key>Forced</key>
+					<key>Set-Once</key>
 					<array>
 						<dict>
 							<key>mcx_preference_settings</key>
 							<dict>
-								<key>InstallAppleSoftwareUpdates</key>
+								<key>DidSeeCloudSetup</key>
 								<true/>
-								<key>SoftwareRepoURL</key>
-								<string>http://repo.sacredsf.org/munki</string>
-								<key>SoftwareUpdateServerURL</key>
-								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
+								<key>DidSeeSyncSetup</key>
+								<true/>
+								<key>DidSeeSyncSetup2</key>
+								<true/>
+								<key>SkipFirstLoginOptimization</key>
+								<true/>
+								<key>LastSeenCloudProductVersion</key>
+								<string>10.10</string>
+								<key>RunNonInteractive</key>
+								<true/>
+								<key>LastSeenBuddyBuildVersion</key>
+								<string>14A389</string>
+								<key>GestureMovieSeen</key>
+								<string>none</string>
 							</dict>
 						</dict>
 					</array>
