@@ -22,81 +22,6 @@
 	<array>
 		<dict>
 			<key>PayloadType</key>
-			<string>com.apple.dock</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-			<key>PayloadIdentifier</key>
-			<string>com.apple.mdm.Server.local.d5fbeccd-8863-4b72-941f-b5a4c62859b5.alacarte.dock.819d65f0-c1e1-0132-4f73-000c29b48376</string>
-			<key>PayloadEnabled</key>
-			<true/>
-			<key>PayloadUUID</key>
-			<string>819d65f0-c1e1-0132-4f73-000c29b48376</string>
-			<key>PayloadDisplayName</key>
-			<string>Dock</string>
-			<key>tilesize</key>
-			<integer>68</integer>
-			<key>size-immutable</key>
-			<true/>
-			<key>magnification</key>
-			<false/>
-			<key>largesize</key>
-			<integer>0</integer>
-			<key>magnify-immutable</key>
-			<true/>
-			<key>magsize-immutable</key>
-			<true/>
-			<key>orientation</key>
-			<string>bottom</string>
-			<key>position-immutable</key>
-			<true/>
-			<key>mineffect</key>
-			<string>genie</string>
-			<key>mineffect-immutable</key>
-			<true/>
-			<key>launchanim</key>
-			<true/>
-			<key>launchanim-immutable</key>
-			<true/>
-			<key>autohide</key>
-			<false/>
-			<key>show-process-indicators</key>
-			<true/>
-			<key>show-process-indicators-immutable</key>
-			<true/>
-			<key>minimize-to-application</key>
-			<false/>
-			<key>minimize-to-application-immutable</key>
-			<true/>
-			<key>contents-immutable</key>
-			<true/>
-			<key>static-only</key>
-			<true/>
-			<key>static-apps</key>
-			<array>
-				<dict>
-					<key>mcx_typehint</key>
-					<integer>1</integer>
-					<key>tile-type</key>
-					<string>file-tile</string>
-					<key>tile-data</key>
-					<dict>
-						<key>file-label</key>
-						<string>TextEdit</string>
-						<key>file-data</key>
-						<dict>
-							<key>_CFURLString</key>
-							<string>/Applications/TextEdit.app</string>
-							<key>_CFURLStringType</key>
-							<integer>0</integer>
-						</dict>
-					</dict>
-				</dict>
-			</array>
-			<key>static-others</key>
-			<array/>
-		</dict>
-		<dict>
-			<key>PayloadType</key>
 			<string>com.apple.applicationaccess.new</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
@@ -117,6 +42,7 @@
 			<key>pathWhiteList</key>
 			<array>
 				<string>/Library/Sophos Anti-Virus</string>
+				<string>/Applications/Utilities/Adobe Application Manager/UWA</string>
 			</array>
 			<key>whiteList</key>
 			<array>
@@ -434,6 +360,81 @@
 			<string>Restrictions</string>
 			<key>safariAllowAutoFill</key>
 			<false/>
+		</dict>
+		<dict>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.mdm.Server.local.d5fbeccd-8863-4b72-941f-b5a4c62859b5.alacarte.dock.819d65f0-c1e1-0132-4f73-000c29b48376</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadUUID</key>
+			<string>819d65f0-c1e1-0132-4f73-000c29b48376</string>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>tilesize</key>
+			<integer>68</integer>
+			<key>size-immutable</key>
+			<true/>
+			<key>magnification</key>
+			<false/>
+			<key>largesize</key>
+			<integer>0</integer>
+			<key>magnify-immutable</key>
+			<true/>
+			<key>magsize-immutable</key>
+			<true/>
+			<key>orientation</key>
+			<string>bottom</string>
+			<key>position-immutable</key>
+			<true/>
+			<key>mineffect</key>
+			<string>genie</string>
+			<key>mineffect-immutable</key>
+			<true/>
+			<key>launchanim</key>
+			<true/>
+			<key>launchanim-immutable</key>
+			<true/>
+			<key>autohide</key>
+			<false/>
+			<key>show-process-indicators</key>
+			<true/>
+			<key>show-process-indicators-immutable</key>
+			<true/>
+			<key>minimize-to-application</key>
+			<false/>
+			<key>minimize-to-application-immutable</key>
+			<true/>
+			<key>contents-immutable</key>
+			<true/>
+			<key>static-only</key>
+			<true/>
+			<key>static-apps</key>
+			<array>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>TextEdit</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/TextEdit.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+			</array>
+			<key>static-others</key>
+			<array/>
 		</dict>
 	</array>
 </dict>
