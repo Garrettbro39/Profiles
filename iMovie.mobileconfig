@@ -24,7 +24,7 @@
 			<key>PayloadType</key>
 			<string>com.apple.ManagedClient.preferences</string>
 			<key>PayloadVersion</key>
-			<integer>1</integer>
+			<integer>1007</integer>
 			<key>PayloadIdentifier</key>
 			<string>org.sacredsf.profile.imovie</string>
 			<key>PayloadUUID</key>
@@ -43,6 +43,8 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>showWelcomeScreenAtStartup</key>
+								<string>0</string>
+								<key>showWhatsNewScreenAtStartup</key>
 								<string>0</string>
 							</dict>
 						</dict>
