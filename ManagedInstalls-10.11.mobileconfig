@@ -45,17 +45,9 @@
 								<key>InstallAppleSoftwareUpdates</key>
 								<true/>
 								<key>SoftwareRepoURL</key>
-								<string>https://munki2.sacredsf.org/repo</string>
+								<string>http://repo.sacredsf.org/munki</string>
 								<key>SoftwareUpdateServerURL</key>
-								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
-								<key>SoftwareRepoCACertificate</key>
-								<string>/Library/Managed Installs/certs/ca.pem</string>
-								<key>ClientCertificatePath</key>
-								<string>/Library/Managed Installs/certs/clientcert.pem</string>
-								<key>ClientKeyPath</key>
-								<string>/Library/Managed Installs/certs/clientkey.pem</string>
-								<key>UseClientCertificate</key>
-								<true/>
+								<string>http://repo.sacredsf.org/content/catalogs/others/index-10.11-10.10-10.9-mountainlion-lion-snowleopard-leopard.merged-1_release.sucatalog</string>
 							</dict>
 						</dict>
 					</array>

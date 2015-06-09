@@ -153,11 +153,11 @@
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Adobe Photoshop CS6</string>
+						<string>Adobe Acrobat</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Adobe Photoshop CS6/Adobe Photoshop CS6.app</string>
+							<string>/Applications/Adobe Acrobat DC/Adobe Acrobat.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -171,11 +171,11 @@
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Adobe InDesign CS6</string>
+						<string>Adobe Bridge CC</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Adobe InDesign CS6/Adobe InDesign CS6.app</string>
+							<string>/Applications/Adobe Bridge CC/Adobe Bridge CC.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -189,11 +189,11 @@
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Adobe Illustrator CS6</string>
+						<string>Adobe Illustrator CC 2014</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Adobe Illustrator CS6/Adobe Illustrator.app</string>
+							<string>/Applications/Adobe Illustrator CC 2014/Adobe Illustrator.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
@@ -207,11 +207,29 @@
 					<key>tile-data</key>
 					<dict>
 						<key>file-label</key>
-						<string>Firefox</string>
+						<string>Adobe InDesign CC 2014</string>
 						<key>file-data</key>
 						<dict>
 							<key>_CFURLString</key>
-							<string>/Applications/Firefox.app</string>
+							<string>/Applications/Adobe InDesign CC 2014/Adobe InDesign CC 2014.app</string>
+							<key>_CFURLStringType</key>
+							<integer>0</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+					<dict>
+						<key>file-label</key>
+						<string>Adobe Photoshop CC 2014</string>
+						<key>file-data</key>
+						<dict>
+							<key>_CFURLString</key>
+							<string>/Applications/Adobe Photoshop CC 2014/Adobe Photoshop CC 2014.app</string>
 							<key>_CFURLStringType</key>
 							<integer>0</integer>
 						</dict>
