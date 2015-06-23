@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.adobe.Lightroom6</key>
+				<dict>
+					<key>Set-Once</key>
+					<array>
+						<dict>
+							<key>mcx_data_timestamp</key>
+							<date>2015-06-23T19:46:55Z</date>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>Showed_Sync_Walkthrough</key>
+								<string>1</string>
+								<key>com.adobe.ag.library_Showed_Walkthroughs</key>
+								<string>1</string>
+								<key>firstLaunchHasRun30</key>
+								<string>1</string>
+								<key>noAutomaticallyCheckUpdates</key>
+								<string>1</string>
+								<key>noSplashScreenOnStartup</key>
+								<string>1</string>
+								<key>HighBeamParticipationNoticeHasShowed</key>
+								<string>1</string>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>MCXToProfile.59408636-462a-437d-8e9b-19a37cfb3293.alacarte.customsettings.bde0528b-8249-451b-b641-8708517ede3b</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>bde0528b-8249-451b-b641-8708517ede3b</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Included custom settings:
+com.adobe.Lightroom6
+
+Git revision: 1d30395cd4</string>
+	<key>PayloadDisplayName</key>
+	<string>Adobe Lightroom 6</string>
+	<key>PayloadIdentifier</key>
+	<string>org.sacredsf.adobe.lightroom</string>
+	<key>PayloadOrganization</key>
+	<string>SSH SF</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>59408636-462a-437d-8e9b-19a37cfb3293</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
