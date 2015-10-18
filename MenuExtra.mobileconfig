@@ -15,9 +15,9 @@
 							<key>mcx_preference_settings</key>
 							<dict>
 								<key>Bluetooth.menu</key>
-								<false/>
+								<true/>
 								<key>Displays.menu</key>
-								<false/>
+								<true/>
 								<key>TimeMachine.menu</key>
 								<false/>
 								<key>delaySeconds</key>
